@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;    // importa una classe static
 
-public class TestPunt<p> {
+public class TestPunt {
     @Test
     public void testPuntConstructor() {
         // comprova que el constructor Punt() pugui ser cridat
