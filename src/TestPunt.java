@@ -41,7 +41,8 @@ public class TestPunt {
 
     //Exercici 4: Quan en un setter estem dividim el numero entrant entre un numero assignat al setter i el numero introduit es 0.
 
-    //Exercici 5:
+    //Exercici 5: Básicament en el 4.10 explica el fet de d'intentar agafar més d'un error en un test, això no es recomenat ja que si peta el test, no saps per quin error ->
+    //-> va ser generat "you begin to fight against JUnit", mentres que si fas un test per error saps a quin test correspon cada error i això poder resoldre'l. "
 
     public static void main(String args[]) {
         org.junit.runner.JUnitCore.main("TestPunt");
